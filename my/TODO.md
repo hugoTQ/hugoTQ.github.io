@@ -250,5 +250,3 @@ openssl req -x509 -new -key ca_key.pem -passin pass:$passwd -sha256 -out ca.50d.
 openssl req -x509 -new -key ca_key.pem -passin pass:$passwd -sha256 -out ca.60d.pem -subj "/C=CN/ST=Guangdong/L=Shenzhen/O=Huawei/OU=IT/CN=RootCA" -days 60
 cat ca.10d.pem ca.20d.pem ca.30d.pem ca.40d.pem ca.50d.pem ca.60d.pem > cas.pem
 
- # go-redis
- ## public-suscribe

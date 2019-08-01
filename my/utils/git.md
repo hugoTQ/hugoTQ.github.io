@@ -26,3 +26,11 @@ sudo apt-get install git
 ## git 没有颜色
 
 git config --global color.ui true
+
+
+
+## server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+
+```shell
+export GIT_SSL_NO_VERIFY=1
+```
