@@ -354,3 +354,37 @@ lsof -d description(like 2)
 23. 根据文件描述范围列出文件信息
 
     lsof -d 2-3
+
+## 快速生成大文件
+
+1. shell命令
+
+   ```C
+   char *shell = "dd if=/dev/zero of=test.txt bs=1K count=1024";
+   system(shell);
+   ```
+
+2. seek
+
+   ```C
+   int main(void)
+   {
+       int fd ;
+       fd = open("test.txt" , O_CREAT|O_RDWR , 0777);
+   
+       if( fd < 0)
+       {
+           printf("open file error\n");
+           return 0;
+       }
+   
+       //为了创建一个大小为3M的文件，我们先少创建2个字节，然后在写文件的时候补充2字节
+       lseek(fd , 1024 * 1024 *3 -2, L_SET);
+       write(fd , "e" , 1);
+       close(fd);
+   
+       return 0 ;
+   }
+   ```
+
+   
