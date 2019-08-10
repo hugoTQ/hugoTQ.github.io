@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0059)https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm -->
+<html class="gr__ics_uci_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Architectural Styles and the Design of Network-based Software Architectures
+</title>
+</head><body bgcolor="#ffffff" data-gr-c-s-loaded="true">
+<div align="center">
+<p>
+UNIVERSITY OF CALIFORNIA, IRVINE</p>
+<h1>Architectural Styles and<br>
+the Design of Network-based Software Architectures</h1>
+<p>
+DISSERTATION</p>
+<p>
+submitted in partial satisfaction of the requirements for the degree of</p>
+<p>
+DOCTOR OF PHILOSOPHY</p>
+<p>
+in Information and Computer Science</p>
+<p>
+by</p>
+<p>
+<a href="http://www.ics.uci.edu/~fielding/">Roy Thomas Fielding</a></p>
+<p>
+2000</p>
+<p>
+&nbsp;</p>
+<p>
+Dissertation Committee:<br>
+Professor Richard N. Taylor, Chair<br>
+Professor Mark S. Ackerman<br>
+Professor David S. Rosenblum</p>
+</div>
+
+<h2><a name="pdf">PDF Editions</a></h2>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf">1-column for viewing online</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation_2up.pdf">2-column for printing</a></dd>
+</dl>
+
+<h2><a name="toc">Table of Contents</a></h2>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/dedication.htm">Dedication</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/acknowledgments.htm">Acknowledgments</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_cv_2000.htm">Curriculum Vitae</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/abstract.htm">Abstract of the Dissertation</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm">Introduction</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm">CHAPTER 1: Software Architecture</a>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_1">1.1 Run-time Abstraction</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_2">1.2 Elements</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_3">1.3 Configurations</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_4">1.4 Properties</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_5">1.5 Styles</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_6">1.6 Patterns and Pattern Languages</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_7">1.7 Views</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_8">1.8 Related Work</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm#sec_1_9">1.9 Summary</a></dd>
+</dl></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_app_arch.htm">CHAPTER 2: Network-based Application Architectures</a>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_app_arch.htm#sec_2_1">2.1 Scope</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_app_arch.htm#sec_2_2">2.2 Evaluating the Design of Application Architectures</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_app_arch.htm#sec_2_3">2.3 Architectural Properties of Key Interest</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_app_arch.htm#sec_2_4">2.4 Summary</a></dd>
+</dl></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm">CHAPTER 3: Network-based Architectural Styles</a>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_1">3.1 Classification Methodology</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_2">3.2 Data-flow Styles</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_3">3.3 Replication Styles</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_4">3.4 Hierarchical Styles</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_5">3.5 Mobile Code Styles</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_6">3.6 Peer-to-Peer Styles</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_7">3.7 Limitations</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_8">3.8 Related Work</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#sec_3_9">3.9 Summary</a></dd>
+</dl></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/web_arch_domain.htm">CHAPTER 4: Designing the Web Architecture: Problems and Insights</a>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/web_arch_domain.htm#sec_4_1">4.1 WWW Application Domain Requirements</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/web_arch_domain.htm#sec_4_2">4.2 Problem</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/web_arch_domain.htm#sec_4_3">4.3 Approach</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/web_arch_domain.htm#sec_4_4">4.4 Summary</a></dd>
+</dl></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm">CHAPTER 5: Representational State Transfer (REST)</a>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_1">5.1 Deriving REST</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_2">5.2 REST Architectural Elements</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_3">5.3 REST Architectural Views</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_4">5.4 Related Work</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#sec_5_5">5.5 Summary</a></dd>
+</dl></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm">CHAPTER 6: Experience and Evaluation</a>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm#sec_6_1">6.1 Standardizing the Web</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm#sec_6_2">6.2 REST Applied to URI</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm#sec_6_3">6.3 REST Applied to HTTP</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm#sec_6_4">6.4 Technology Transfer</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm#sec_6_5">6.5 Architectural Lessons</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/evaluation.htm#sec_6_6">6.6 Summary</a></dd>
+</dl></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/conclusions.htm">Conclusions</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/references.htm">References</a></dd>
+</dl>
+
+<h2><a name="lof">List of Figures</a></h2>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_1">Figure 5-1. Null Style</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_2">Figure 5-2. Client-Server</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_3">Figure 5-3. Client-Stateless-Server</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_4">Figure 5-4. Client-Cache-Stateless-Server</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_5">Figure 5-5. Early WWW Architecture Diagram</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_6">Figure 5-6. Uniform-Client-Cache-Stateless-Server</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_7">Figure 5-7. Uniform-Layered-Client-Cache-Stateless-Server</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_8">Figure 5-8. REST</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_9">Figure 5-9. REST Derivation by Style Constraints</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#fig_5_10">Figure 5-10. Process View of a REST-based Architecture</a></dd>
+</dl>
+
+<h2><a name="lot">List of Tables</a></h2>
+<dl compact="compact">
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#tab_3_1">Table 3-1. Evaluation of Data-flow Styles for Network-based Hypermedia</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#tab_3_2">Table 3-2. Evaluation of Replication Styles for Network-based Hypermedia</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#tab_3_3">Table 3-3. Evaluation of Hierarchical Styles for Network-based Hypermedia</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#tab_3_4">Table 3-4. Evaluation of Mobile Code Styles for Network-based Hypermedia</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#tab_3_5">Table 3-5. Evaluation of Peer-to-Peer Styles for Network-based Hypermedia</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/net_arch_styles.htm#tab_3_6">Table 3-6. Evaluation Summary</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#tab_5_1">Table 5-1. REST Data Elements</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#tab_5_2">Table 5-2. REST Connectors</a></dd>
+<dd><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm#tab_5_3">Table 5-3. REST Components</a></dd>
+</dl>
+<hr size="1" noshade="noshade">
+<table width="100%">
+<tbody><tr><td align="left" valign="top" nowrap="nowrap">
+<i>[<a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/dedication.htm" rel="next">Next</a>]</i>
+</td><td align="center" valign="top">
+© <a href="http://www.ics.uci.edu/~fielding/">Roy Thomas Fielding</a>, 2000.  All rights reserved.
+</td><td align="right" valign="top">
+<i>[<a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/faq.htm">How to reference this work.</a>]</i>
+</td></tr></tbody></table>
+
+
+</body></html>
