@@ -23,7 +23,10 @@
 
 - kubectl discribe pod <pod-name>   查看API 对象的细节（包含ymal文件信息）
 
-  
+- 删除node：
 
-- 
+  - kubectl drain <nodename> --delete-local-data --force --ignore-daemonsets    ——禁止pod调度到该节点，该节点上的pod重新调度
+  - kubectl delete node <nodename>
+
+  
 

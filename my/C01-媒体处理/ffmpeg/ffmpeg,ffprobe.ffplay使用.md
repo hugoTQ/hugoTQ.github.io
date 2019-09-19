@@ -1,4 +1,4 @@
-# ffprobe
+# ffprobe![img](file:///C:/Users/h00379181/AppData/Roaming/eSpace_Desktop/UserData/h00379181/imagefiles/originalImgfiles/1D00E803-FA54-445C-9D5E-BB58CDE027EE.png)
 
 常用：
 
@@ -8,7 +8,7 @@
 
 2. 输出每帧信息到cvs
 
-   `./ffprobe -show_frames -select_streams v infilePath -print_format csv > output.csv >&1`
+   `ffprobe -show_frames -select_streams v infilePath -print_format csv > output.csv >&1`
 
 
 

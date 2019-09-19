@@ -176,21 +176,49 @@ ffmpeg -i 1.mov -i 2.wmv -filter_complex "[0:0] [0:1] [1:0] [1:1]  concat=n=2:v=
 
 ## 3. 关键结构体
 
-![1557216031952](E:\project\docs2\my\ffmpeg\学习：AVFilter.assets\1557216031952.png)
+![1557216031952](.\学习：AVFilter.assets\1557216031952.png)
 
 ## 4. 创建 AVfilterGragh
+
+```C
+1. graph = avfilter_graph_alloc();
+
+2.avfilter_graph_parse2
+
+3.for (cur = inputs; cur; cur = cur->next) {
+	avfilter_graph_create_filter(&srcContext, srcFilter, "in", inFilter, nullptr, graph);
+	ret = avfilter_link(srcContext, 0, input->filter_ctx, input->pad_idx);	
+}
+4. for (cur = outputs; cur; cur = cur->next) {
+    ret = avfilter_graph_create_filter(&sinkContext, avfilter_get_by_name("buffersink"), output->name, nullptr, nullptr, graph);
+    avfilter_link(output->filter_ctx, output->pad_idx, sinkContext, 0);
+  	}
+5.想额外加fitler
+        if ((ret = avfilter_graph_create_filter(&filter, avfilter_get_by_name("scale"),
+                                                name, args, NULL, fg->graph)) < 0)
+            return ret;
+        if ((ret = avfilter_link(last_filter, pad_idx, filter, 0)) < 0)
+            return ret;
+5.ret = avfilter_graph_config(graph, nullptr);
+
+
+```
+
+
 
 ## 5. 整个fitler流程
 
 ## 6. 实现一个fitler
 
-## 7. fitler格式协商
-
 ## REFERENCE
+
+[filter构造图，对graph结构理解很有帮助](https://www.jianshu.com/p/e9ec10350bad)
 
 [较全解析1](https://blog.csdn.net/newchenxf/article/details/51364105)
 
 [较全解析2-new](https://www.cnblogs.com/TaigaCon/p/10171464.html)
+
+[filter格式协商](https://www.cnblogs.com/TaigaCon/p/10111326.html)
 
 [FFmpeg文档解读](https://www.jianshu.com/p/2eccd79b93f1)
 
