@@ -6,3 +6,4 @@
 - 《Java 8实战》
 - [Java Tools and Commands Reference](https://docs.oracle.com/en/java/javase/11/tools/tools-and-command-reference.html)
 - 《实战Gradle》
+- [java学习+面试指南](https://github.com/Snailclimb/JavaGuide#java-8)
