@@ -42,9 +42,13 @@
 2. 性能
 
 map:10个分区100条数据，f函数执行1000次
+
 mapPartitions：10个分区100条数据，f函数执行10次
+
 总结：
+
 若f中有耗资源操作，则mapPartitions效率更高。
+
 mapPartitions中f需要读到内存数据更多，OOM风险更大。
 
 
