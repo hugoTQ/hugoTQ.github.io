@@ -20,7 +20,7 @@ flatMap方法和map方法类似，但是每个输入项可成为0个或多个输
 
 ## java stream 的 map，scala iterator 的map 与 spark RDD 的 map 区别
 
-**spark RDD.map源码***
+**spark RDD.map源码**
 ```scala
   def map[U: ClassTag](f: T => U): RDD[U] = withScope {
     val cleanF = sc.clean(f)
