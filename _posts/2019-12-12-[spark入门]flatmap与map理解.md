@@ -17,3 +17,6 @@ flatMap方法和map方法类似，但是每个输入项可成为0个或多个输
 **理解** 
 
 读取文件是一行一行读的，flatmap是先map后flat。map(_.split(" "))后将每行分割为一个字符串数组，也即是map后是一个二维的字符串数组。flat一般称为扁平化，flat可以理解为再将这个二维数组片扁平为一个一维数组。
+
+## java stream 的 map，scala iterator 的map 与 spark RDD 的 map 区别
+实现功能一样其实都一样，用法也大同小异。
