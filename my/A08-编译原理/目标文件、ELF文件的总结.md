@@ -36,7 +36,7 @@
   }
   ```
 
-  ![1562245889954](E:\project\docs2\my\编译原理\关于linux下的text，data，bss段.assets\1562245889954.png)
+  ![1579594557999](../../../../projectdocsmyimages/1579594557999.png)
 
 - .text(代码段)
 

@@ -261,7 +261,7 @@ ID_Name.at(2016) = "Bob";
 
 二者的区别在于，后者一定返回 const_iterator，而前者则根据map的类型返回iterator 或者 const_iterator。const情况下，不允许对值进行修改。如下面代码所示：如果map为空，则 begin = end。
 
-![1568875011663](STL.assets/1568875011663.png)
+![1579594605998](../../../../../projectdocsmyimages/1579594605998.png)
 
 ```C
 map<int,int>::iterator it;

@@ -39,4 +39,4 @@
 - docker commit不会提交/etc/hosts、/etc/resolv.conf里的信息，这也是init层的作用
 - docker commit 不会提交容器里Volume的信息，可以看到提交挂载点，但目录下是空的。（Volume声明方式：`docker run -v /home:/test ...`）
 
-![image-20190630180318910](/Users/htq/1-workspace/docs/my/docker&k8s/docker基础-linux namespace.assets/image-20190630180318910.png)
+![1579594483174](../../../../projectdocsmyimages/1579594483174.png)
