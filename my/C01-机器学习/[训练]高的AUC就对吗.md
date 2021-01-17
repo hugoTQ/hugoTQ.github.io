@@ -38,7 +38,7 @@ time /MFS/Dataone/BICommon/FIClient_C70SPC282/Spark2x/spark/bin/spark-submit \
 
  
 
-参数名 格式 参数说明
+参数名 格式 参数说明9
 
 --master MASTER_URL 如spark://host:port, mesos://host:port, yarn,  yarn-cluster,yarn-client, local
 

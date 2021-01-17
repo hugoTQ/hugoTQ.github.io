@@ -8,6 +8,16 @@ textFileRdd.foreach(println(_))
 
 
 
+## 打印
+
+```scala
+rdd2.foreach(println)
+```
+
+
+
+
+
 ## spark常用算子
 
 ### **wordCount例子**
