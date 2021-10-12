@@ -4,7 +4,7 @@
 
 spark特征工程，报错java.lang.IllegalArgumentException: Size exceeds Integer.MAX_VALUE
 
-![img](../../../../projectdocsmyimages/0C0B27DC-F6CA-4263-85E1-4B4FA25796F0.png)
+![img](../img/0C0B27DC-F6CA-4263-85E1-4B4FA25796F0.png)
 
 
 

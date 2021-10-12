@@ -1,9 +1,5 @@
 # 一、One-Hot Encoding介绍
 
-
-
-
-
 # 1 .One-Hot Encoding
 
 ​    One-Hot编码，又称为一位有效编码，主要是采用![N](http://latex.codecogs.com/gif.latex?N)位状态寄存器来对![N](http://latex.codecogs.com/gif.latex?N)个状态进行编码，每个状态都由他独立的寄存器位，并且在任意时候只有一位有效。
