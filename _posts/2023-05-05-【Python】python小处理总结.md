@@ -18,3 +18,12 @@ sys.stdin = open("your input file name")
 aLine = raw_input()
 print "The line in your file",aLine
 ```
+
+### 3. 二次排序
+
+### 4. list遍历
+
+### 5. map遍历
+
+### 6. list合并
+
