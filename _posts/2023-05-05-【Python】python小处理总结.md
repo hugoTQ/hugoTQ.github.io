@@ -1,3 +1,4 @@
+[TOC]
 ### 1.python将列表转化为字典结构，相同Key的放入value列表中
 ```python
 from collections import defaultdict
