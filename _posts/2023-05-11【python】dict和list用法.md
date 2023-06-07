@@ -1,6 +1,28 @@
 ## 一. lis
 ### 1.list遍历
 
+- 方法一：最简单常用的，用 for 循环遍历1。例如：
+```python
+for num in list:
+    print(num)
+```
+
+- 方法二：利用 Python 内置函数 enumerate() 列举出 list 中的数12。enumerate() 函数可以返回一个索引序列，同时列出数据和数据下标2。例如：
+```python
+for i, num in enumerate(list):
+    print(i, num)
+```
+
+- 方法三：使用 range() 函数遍历13。range() 函数返回一个整数列表，一般用在 for 循环中3。例如：
+```python
+for i in range(len(list)):
+    print(i, list[i])
+```
+- 方法三：使用 iter() 迭代器遍历13。iter() 函数用来生成迭代器，返回迭代对象3。例如：
+```python
+for num in iter(list):
+    print(num)
+```
 ### 2.常见操作
 `append (x)`：在列表的末尾添加一个元素x。相当于`a [len (a):] = [x]`。</br>
 
