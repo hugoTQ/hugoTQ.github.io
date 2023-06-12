@@ -5,8 +5,6 @@
 - [5. map遍历](#5-map--)
 - [6. list合并](#6-list--)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ### 1.python将列表转化为字典结构，相同Key的放入value列表中
 ```python
 from collections import defaultdict
