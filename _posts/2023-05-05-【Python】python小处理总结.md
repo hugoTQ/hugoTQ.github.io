@@ -1,16 +1,4 @@
-[TOC]
-```
-<!--ts-->
-   * [第一章](#chapter1)
-      * [第一节](#section1)
-         * [第一小节](#subsection1)
-         * [第二小节](#subsection2)
-      * [第二节](#section2)
-         * [第一小节](#subsection3)
-         * [第二小节](#subsection4)
-<!--te-->
-```
-<a name="chapter1"></a>
+
 ### 1.python将列表转化为字典结构，相同Key的放入value列表中
 ```python
 from collections import defaultdict
@@ -23,7 +11,6 @@ for key, value in my_list:
 
 print(my_dict)
 ```
-<a name="section1"></a>
 ### 2. python怎么把默认input改成某文件
 ```python
 import sys
@@ -31,7 +18,7 @@ sys.stdin = open("your input file name")
 aLine = raw_input()
 print "The line in your file",aLine
 ```
-<a name="subsection1"></a>
+
 ### 3. 二次排序
 
 ### 4. list遍历
