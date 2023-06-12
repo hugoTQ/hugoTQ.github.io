@@ -1,11 +1,11 @@
-- [ScePortal](#sceportal)
-- [vue2.x + aui3.x](#vue2x--aui3x)
-- [启动步骤：](#启动步骤)
-  - [1 下载依赖文件 执行 yarn 或 npm install](#1-下载依赖文件-执行-yarn-或-npm-install)
-    - [默认端口 10240 修改端口号 vue.config.js 修改本地网关 config/aurora.dev.js](#默认端口-10240-修改端口号-vueconfigjs-修改本地网关-configauroradevjs)
-  - [2 启动命令 yarn serve 或者 npm run serve](#2-启动命令-yarn-serve-或者-npm-run-serve)
-- [编码规范 eslint + prettier](#编码规范-eslint--prettier)
-- 
+- [1.python将列表转化为字典结构，相同Key的放入value列表中](#1python将列表转化为字典结构相同key的放入value列表中)
+- [2. python怎么把默认input改成某文件](#2-python怎么把默认input改成某文件)
+- [3. 二次排序](#3-二次排序)
+- [4. list遍历](#4-list遍历)
+- [5. map遍历](#5-map遍历)
+- [6. list合并](#6-list合并)
+
+
 ### 1.python将列表转化为字典结构，相同Key的放入value列表中
 ```python
 from collections import defaultdict
