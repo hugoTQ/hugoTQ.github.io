@@ -1,9 +1,9 @@
-- [1.python将列表转化为字典结构，相同Key的放入value列表中](#1python将列表转化为字典结构相同key的放入value列表中)
-- [2. python怎么把默认input改成某文件](#2-python怎么把默认input改成某文件)
-- [3. 二次排序](#3-二次排序)
-- [4. list遍历](#4-list遍历)
-- [5. map遍历](#5-map遍历)
-- [6. list合并](#6-list合并)
+ [1.python将列表转化为字典结构，相同Key的放入value列表中](#1python将列表转化为字典结构相同key的放入value列表中)
+ [2. python怎么把默认input改成某文件](#2-python怎么把默认input改成某文件)
+ [3. 二次排序](#3-二次排序)
+ [4. list遍历](#4-list遍历)
+ [5. map遍历](#5-map遍历)
+ [6. list合并](#6-list合并)
 
 
 ### 1.python将列表转化为字典结构，相同Key的放入value列表中
