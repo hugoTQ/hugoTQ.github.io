@@ -1,7 +1,7 @@
 - [1.python将列表转化为字典结构，相同Key的放入value列表中](#1python将列表转化为字典结构相同key的放入value列表中)
 - [2. python怎么把默认input改成某文件](#2-python怎么把默认input改成某文件)
 - [3. 二次排序](#3-二次排序)
-
+- [4. 初始化二维数组](#4-初始化二维数组)
 
 
 
@@ -30,6 +30,7 @@ print "The line in your file",aLine
 ### 4. 初始化二维数组
 
 ```python
-a = [[0 * n] for _ in range(m)]
+a = [[0 * n] for _ in range(m)] 
 ```
-`[0 for _ in range(n)]`和 `[0] * n` 没有区别。但是二维数组不能用`[[0]*n]*n`，因为是`*`是浅拷贝，修改其中一个元素会影响其他元。
+1. 使用列表推导式。这是一种使用for循环在方括号中生成列表的方法，叫做列表解析（List Comprehensions）。
+2. `[0 for _ in range(n)]`和 `[0] * n` 没有区别。但是二维数组不能用`[[0]*n]*n`，因为是`*`是浅拷贝，修改其中一个元素会影响其他元素。
